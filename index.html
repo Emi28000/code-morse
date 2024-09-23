@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encodeur/Décodeur Morse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="animatedTitle"></h1>
+    <div>
+        <h2>Texte à encoder</h2>
+        <input type="text" id="textInput" placeholder="Entrez du texte ">
+        <button onclick="encodeText()">Ok</button>
+        <p id="encodedOutput"></p>
+    </div>
+    <div>
+        <h2>Morse à décoder</h2>
+        <input type="text" id="morseInput" placeholder="Texte morse ">
+        <button onclick="decodeMorse()">Ok</button>
+        <p id="decodedOutput"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
